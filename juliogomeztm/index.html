@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <title>julioresume</title>
-
+    <title>juliogomeztm</title>
+    <link rel="shortcut icon" href="img/favicon.png">
     <!--FONT AWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <meta charset="UTF-8">
-    <meta name="author" content="">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="author" content="julio">
+    <meta name="description" content="personal portfolio">
+    <meta name="keywords" content="portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css">
 
@@ -18,110 +18,188 @@
 
 <body>
 
-    <div class="container">
-
-        <!--HEADER-->
-
-        <header>
-            <h1>juliogomeztm</h1>
-            <h2>Web developer </h2>
-        </header>
 
 
-        <!--MENU LINKS-->
 
-        <nav class="menu">
+    <!--HEADER-->
 
-            <ul>
+    <header>
+        <a name="top" id="top"></a>
+        <h1>juliogomeztm</h1>
+        <h2>Web developer </h2>
+    </header>
 
-                <li>
-                    <a href="#">
-                        <i class="fas fa-search"> </i>
-                    </a>
-                </li>
 
-                <li><a href="#contact">CONTACT</a></li>
-                <li><a href="#work">WORKS</a></li>
-                <li><a href="#bio">BIO</a></li>
-                <li><a href="#index">HOME </a></li>
+    <!--MENU LINKS-->
 
+    <nav class="menu">
+
+        <ul>
+
+            <li>
+                <a href="https://www.google.es/" target="blank">
+                    <i class="fas fa-search"> </i>
+                </a>
+            </li>
+
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#story">STORY</a></li>
+
+
+        </ul>
+
+
+    </nav>
+
+    <!--SECTION 1-->
+
+
+    <section class="big title">
+
+        <article>
+            <h3>thinking minimal, is always a good solution. </h3>
+
+        </article>
+
+    </section>
+
+
+
+    <!--SECTION 2-->
+
+
+    <section>
+        <article>
+            <p id="target"><img class="foto" src="img/team-julio.jpg" align="left" />
+
+                Hello! My name is Julio and I am from Spain.
+                I have been working as a web <u>designer & frontend</u> web developer for 5 years.
+                I have been involved in many kinds of websites and application developments. Lenguaje skills;
+                html5,
+                CSS3, javascript.
+                I always deeply care about excellent UI/UX, and performance. I love freelancing.</p>
+
+        </article>
+
+    </section>
+
+
+    <!--SECTION 3-->
+
+
+    <section class="boton">
+
+
+
+        <a class="btn" href="mailto:juliogomeztm@gmail.com" target="blank">Direct mail <i
+                class="far fa-paper-plane"></i></a>
+
+           
+
+    </section>
+
+
+
+    <!--SECTION 4-->
+
+    <section class="story">
+        <a name="story" id="story"></a>
+
+        <h1>Story</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, labore voluptatum pariatur porro
+            recusandae laboriosam at ut ex minima necessitatibus inventore, tenetur nihil? Dicta dignissimos
+            commodi dolore ipsa distinctio. Tempora.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sit et ipsa, architecto suscipit,
+            obcaecati quia explicabo laborum quidem totam in accusamus vitae itaque beatae cum aspernatur
+            fugiat, aliquid modi.</p>
+
+    </section>
+
+
+    <!--SECTION 5-->
+
+
+    <section>
+
+        <a name="skills" id="skills">
+            <h1>skills</h1>
+            <ul class="skill">
+                <li><u>Html5</u></li>
+                <li><u>CSS3</u></li>
+                <li>Bootstrap</li>
+                <li>Javascript</li>
+                <li>React.js</li>
+                <li>Github</li>
             </ul>
+            <a id="other">
+                <h1>Other</h1>
+                <ul class="skill">
+                    <li><u>Linux</u></li>
+                    <li><u>photoshop</u></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+    </section>
+
+    <!--SECTION 6-->
 
 
-        </nav>
+    <section>
 
-        <!--SECTION 1-->
+        <form id="contact-form" role="form" action="https://formspree.io/mzbjqkga" method="post">
+            <div class="section-title">
+                <h1>Projects info</h1>
+            </div>
 
-        <section class="big title">
+            <div class="col-md-4 col-sm-4">
+                <input type="text" class="form-control" placeholder="Full name" name="name" required>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <input type="email" class="form-control" placeholder="Email address" name="email" required>
+            </div>
 
-            <article>
-                <h3>thinking minimal, is always a good solution.</h3>
-
-            </article>
-
-        </section>
-
-
-
-        <!--SECTION 2-->
-
-
-        <section>
-            <article>
-                <p><img src="img/team-julio.jpg" width="200" align="left" />
-
-                    Hello! My name is Julio and I am from Spain.
-                    I have been working as a web <u>designer & frontend</u> web developer for 5 years.
-                    I have been involved in many kinds of websites and application developments. Lenguaje skills;
-                    html5,
-                    CSS3, javascript.
-                    I always deeply care about excellent UI/UX, and performance. I love freelancing.</p>
-
-            </article>
-
-        </section>
+            <div class="col-md-12 col-sm-12">
+                <textarea class="form-control" rows="8" placeholder="Your message" name="message" required></textarea>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <input type="submit" class="form-control" name="send message" value="Send Message">
+            </div>
 
 
-        <!--SECTION 3-->
+        </form>
 
-        <hr>
-
-        <section class="showcase">
-            
-            <a href="hgkg" class="btn">GET STARTED<i class="fas fa-angle-double-right"></i> </a>
+    </section>
 
 
 
-        </section>
-
-        <section >
-            <a name="contact" id="contact"></a>
-            <div>
-                <h1>contact</h1>
-                <p>my name is rudolf</p>
-        
-        
-        
-        </div>
-        
-
-    </div>
 
 
-</section>
+
+
+
 
     <!--FOOTER-->
 
     <Div class=foot>
-        <Footer>Copyright 2020</Footer>
+
+        <a href="#top" style="color: #25d7d7">BACK TO TOP</a>
+        <Footer>juliogomeztm@gmail.com</Footer>
 
         <address>
-            <h1>juliogomeztm</h1>
+            <h4>Copyright 2021</h4>
         </address>
     </Div>
+
+
+
+
+    <script src="js/gotop.js"></script>
+
 </body>
-
-
 
 
 </html>
