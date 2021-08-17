@@ -7,7 +7,7 @@ html {
 /*TYPOGRAPHY*/
 
 h1 {
-      color:darkcyan;
+    color:darkcyan;
     font-family:sans-serif;
     font-weight: lighter;
     font-size: 30px;
@@ -23,7 +23,7 @@ h2 {
 
 p {
     
-padding: 25px;
+   padding: 25px;
    font-family:sans-serif;
    font-weight: lighter;
    font-size: 24px;
@@ -40,8 +40,16 @@ h3{
     color: rgb(16, 33, 56);
 }
 
+
+h4{
+    font-size: medium; 
+   
+    
+}
+
 ul{
     list-style: none;
+    
 }
 
 /*GENERAL*/
@@ -63,15 +71,16 @@ section{
 /*HEADER*/
 
 header{
-    
-
-text-align: left;
+    text-align: left;
 }
+
+
+
 
 /*NAV MENU*/
 
 .menu{
-padding: 5px;
+   padding: 5px;
 
 }
 
@@ -81,7 +90,7 @@ padding: 5px;
 }  
 .menu li a{
 
-    font-family: serif;
+    font-family:sans-serif;
     font-weight: bold;
     font-size: 20px;
     float: right;
@@ -121,9 +130,9 @@ padding: 5px;
     width:160px;
     height:160px;
     border-radius: 140px;
-    border:8px solid #25d7d7;
     margin-right: 10px;
-    padding: 4px;
+    padding: 6px;
+    background: linear-gradient(35deg, #006eff, #09f1de);
 }
 
 
@@ -131,17 +140,17 @@ padding: 5px;
 
 
 
-    .boton {
-        padding-bottom: 50px;
-        
+.boton {
+    padding-bottom: 50px;
+       
     }
 
 
 .btn{
 
-position: relative;
-left: 20px;
-bottom: 20px;
+  position: relative;
+  left: 20px;
+  bottom: 20px;
 
   text-decoration: none;
   font-size: 20px;
@@ -171,31 +180,111 @@ bottom: 20px;
 }
 
 
-/*SECTION 4*/
-
-.skill {
+/*SECTION 5*/
 
 
+#columnas{
+    width: 25%;
+    column-count:2;
+    column-gap:2px;
+    column-rule:4px none gray;
+    list-style: none;
+    display: none;
+    
+ }
+
+
+.list {
+    background-color: lightcyan;
+    padding-top: 50px;
+    padding-bottom: 190px;
+    font-size: 20px;
+    font-family: sans-serif;
 }
 
-
-
-#contact-form{
+.skills {
+    
+    width: 20%;
+    float: left;
     
 }
+.plus {
+    
+    float: left;
+    width: 20%;
+    
+}
+
+.extra{
+    
+    float: left;
+    width: 20%;
+    
+}
+
+
+
+/*SECTION 6*/
+
+form {
+    
+    
+}
+
+.text {
+    margin-bottom: 5px;
+    border:2px solid #3366FF;
+	border-left: 4px solid #3366FF; 
+}
+.email {
+    margin-bottom: 5px;
+    border:2px solid #3366FF;
+	border-left: 4px solid #3366FF; 
+    }
+
+.textarea {
+    width:450px;
+	border:2px solid #3366FF;
+	border-left: 4px solid #3366FF; 
+    
+}
+
+textarea:focus, input:focus, input[type]:focus {
+    outline: 0 none;
+}
+
 
 
 /*FOOTER*/
 
-.foot{
+.foot {
 
-font-weight: bold;
+    font-weight: bold;
     clear: both;
     text-align: center;
-    padding: 100px;
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
+
+.foot a {
+color: deepskyblue;
+padding: 15px;
+border: 2px solid #3366FF;
+cursor: pointer;
+
+}
+
+.foot a:hover{
+    opacity: 0.6;
+    color: lightskyblue;
+
+}
+
+
 footer{
-    
+    text-align: center;
+   padding-top: 15px;
+   margin-bottom: 30px;
     color: grey;
 }
 
