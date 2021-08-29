@@ -18,10 +18,11 @@ html {
 /*TYPOGRAPHY*/
 
 h1 {
-    color:darkcyan;
-    font-family:sans-serif;
+    color:rgb(0, 0, 0);
+    font-family: Impact;
     font-weight: lighter;
     font-size: 35px;
+    font-weight: bold;
 }
 
 
@@ -29,7 +30,8 @@ h2 {
     
     font-family:sans-serif;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 17px;
+    
 }
 
 p {
@@ -68,14 +70,22 @@ ul{
 body{
     
     width:900px;
-    margin: auto;
+   margin: auto;
+    padding: 40px;
     height: auto;
     
 }
 
-section{
+section {
     padding: 15px;
 }
+
+
+article{
+    margin-right: 40px;
+}
+
+
 
 /*HEADER*/
 
@@ -96,15 +106,16 @@ header{
 .menu li{
     
     display: inline  
+
 }  
 .menu li a{
 
     font-family:sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     float: right;
     padding: 10px;
-    color:rgb(16, 33, 56) ;
+    color:rgb(0, 0, 0) ;
     text-decoration: underline ;
     
     
@@ -130,6 +141,7 @@ header{
 }
 
 #target {
+    margin-right: 40px;
     color: darkcyan;
     box-shadow: 0 0 20px rgb(201, 201, 201);
 
@@ -184,7 +196,7 @@ header{
 .story {
 
     padding: 50px;
-    background: rgb(16, 33, 56);
+    background: rgb(0, 0, 0);
     color: white;
 }
 
@@ -194,7 +206,7 @@ header{
 
 
 .list {
-    background-color: lightcyan;
+    background-color:none;
     padding-top: 50px;
     padding-bottom: 190px;
     font-size: 20px;
