@@ -148,12 +148,16 @@ header{
     text-align: center;
 }
 
+#caja{
 
+   box-shadow: 0 0 20px rgb(201, 201, 201);
+    
+}
 
 #target {
     margin-right: 40px;
     color: darkcyan;
-    box-shadow: 0 0 20px rgb(201, 201, 201);
+   
 
 }
 .foto { 
