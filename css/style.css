@@ -335,10 +335,8 @@ footer {
 
 @media screen and (max-width: 1024px) {
     body {
-        width: 100%;
-        padding: 0px;
         margin: 0px;
-        height: 100vh;
+        width: fit-content;
     }
     .menu,
     .ul {
