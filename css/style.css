@@ -219,15 +219,20 @@ header {
 }
 
 .flex-cards h1 {
+    font-family: fantasy;
+    font-style: italic;
     font-size: 20px;
     padding-left: 30px;
     padding-top: 30px;
-    color: rgb(0, 0, 0);
+    color: rgb(33, 72, 180);
 }
 
 .flex-cards p {
+    font-family: fantasy;
+    font-style: italic;
     font-size: 20px;
     padding: 30px;
+    color: cornflowerblue
 }
 
 .c1,
